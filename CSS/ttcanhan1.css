@@ -1,0 +1,113 @@
+*{
+    list-style:none;
+    text-decoration: none;
+}
+.container{
+    width:100%;
+    padding:0;
+    margin:0;
+}
+.main-ttcn{
+    display:flex;
+    padding-left:9vw;
+    padding-right:9vw;
+    background-color:#f1f5f9;
+    margin-top:2vw;
+    padding-top:2vw;
+}
+.sidebar-ttcn{
+    width:23%;
+    background-color:white;
+    height:15.5vw;
+}
+img#logo-ttcn{
+    height:60px;
+    width:60px;
+    float:left;
+}
+.xinchao-ttcn{
+    padding:1vw;
+    margin-left:4vw;
+    font-weight:700;
+}
+ul.ttcn {
+    padding:0;
+}
+ul.ttcn li{
+    padding:1.2vw;
+    border-bottom:1px solid darkgray;
+}
+ul.ttcn li a{
+    color:black;
+    font-size:1.2vw;
+    font-weight:600;
+}
+ul.ttcn li#ttcn{
+    border-left:5px solid white;
+}
+ul.ttcn li#ttcn:hover{
+    background-color:darkcyan;
+    border-left:5px solid black;
+}
+.article-ttcn{
+    width:75%;
+    margin-left:2%;
+    background-color:white;
+    padding:2.5vw 1.5vw;
+}
+.h1-button{
+    padding-bottom:2vw;
+}
+.h1-button button{
+    float:right;
+    height:3.1vw;
+    font-size:1vw;
+    padding:0 1.5vw;
+    line-height:3.1vw;
+    text-transform: uppercase;
+    font-weight:bold;
+    color:white;
+    background-color:black;
+    margin-top:-2.8vw;
+    border:none;
+}
+.article-ttcn h3{
+    font-weight:500;
+    font-size:1.2vw;
+    padding-bottom:2.5vw;
+}
+.article-ttcn h4{
+    color:darkgrey;
+    font-size:1vw;
+    font-weight:400;
+    padding-bottom:1.5vw;
+}
+h2.ttcb{
+    padding-left:1.5vw;
+    padding-bottom:1.5vw;
+    border-bottom:1px solid #c0c0c0; 
+}
+.article-ttcn h4 span{
+    padding-left:0.5vw;
+}
+.form-border{
+    border:1px solid #c0c0c0;
+    padding:1.5vw 0;
+}
+
+.form-info input{
+   border-radius: 0;
+   height:3vw;
+}
+.form-info{
+    padding:1vw 1vw;
+}
+.file{
+    padding-left:1vw;
+    padding-right:1vw;
+}
+.mb-4 input[type=file]{
+    padding-top:1vw;
+    padding-bottom:1vw;
+}
+

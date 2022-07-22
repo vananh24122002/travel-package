@@ -1,0 +1,335 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&display=swap');
+*{
+    margin:0;
+    padding:0;
+}
+.container-cart{
+    width:100%;
+    font-family: 'Open Sans', sans-serif;
+    font-weight:300;
+}
+.header-cart{
+    height:11vw;
+    padding-left:5%;
+    padding-right:5%;
+    box-shadow: 10px 12px 7px darkcyan;
+}
+.title-cart h1{
+    font-size:3vw;
+    padding-top:1.5vw;
+    width:8vw;
+    font-size:3vw;
+    text-shadow:1px 1px darkcyan;
+    font-weight:300;
+}
+.title-cart h1 a{
+    color:black;
+}
+.title-cart h1 a:hover{
+    text-decoration:none;
+}
+.title-cart h2{
+    font-family: 'Inconsolata', monospace;
+    font-size:5vw;
+    margin-left:11.5%;
+    margin-top:-8vw;
+    text-shadow:1px 1px lightcyan;
+}
+.datphong-cart{
+    float:right;
+    margin-top:-4vw;
+    padding-right:17%;
+}
+.datphong-cart h1{
+    font-size:2.3vw;
+    font-weight:400;
+}
+.datphong-cart h4{
+    position:absolute;
+    margin-top:-2vw;
+    padding-left:15%;
+}
+/* nav */
+.nav-cart{
+    padding:1vw 8%; 
+    border-bottom:1px solid #C0C0C0;
+}
+.nav-cart h1{
+    font-weight:400;
+}
+/* load-cart */
+.load-cart{
+    padding:2vw 8%;
+}
+
+.load-cart img{
+    width:35vw;
+    height:20vw;
+    float:left;
+}
+.content-load-cart{
+    margin-top:-1.25vw;
+    margin-left:41%;
+    padding-left:3%;
+    background-color:#f1f5f9;
+    height:20vw;
+}
+.content-load-cart h2{
+    font-weight:400;
+    font-size:2vw;
+    padding-bottom:1vw;
+}
+.content-load-cart ul{
+    list-style:none;
+    padding:0;
+}
+.content-load-cart ul li{
+    padding:0.5vw;
+}
+/* article */
+.article-cart{
+    width:60%;
+    padding-left:8%;
+}
+/* những gì bạn cần */
+.nhung-gi-ban-can{
+    margin:2.5vw 0; 
+    background-color:#f1f5f9;
+    padding:1vw 1vw;
+}
+#nhung-gi-ban-can-span{
+   font-weight:bold;
+   padding-right:2vw;
+}
+#nhung-gi-ban-can-ul ul{
+    list-style:none;
+    padding: 1vw 0;
+}
+#nhung-gi-ban-can-ul ul li{
+    padding:0.7vw 0;
+}
+span#dk1{
+    padding:0.2vw 0.5vw ;
+    text-align:center;
+    background-color:black;
+    border-radius:50%;
+    color:white;
+}
+/* ai dang đi du lịch */
+.ai-dang-di-du-lich{
+    padding-top:1.5vw;
+}
+#dang-nhap-duoc-giam-gia{
+    float:right;
+    font-weight:400;
+    margin-top:-1.5vw;
+}
+#dang-nhap-duoc-giam-gia a{
+    text-decoration: none;
+    color:lightseagreen;
+    font-weight:500;
+}
+.soluong{
+    padding:2vw 0;
+}
+ul.so-luong-flex{
+    display:flex;
+    list-style:none;
+    padding:0;
+}
+ul.so-luong-flex li{
+    padding:0.8vw 0.8vw;
+    border:1px solid lightskyblue;
+}
+ul.so-luong-flex li#li-cong{
+    background-color:#f1f5f9;
+    border-radius:10px 0px 0px 10px;
+}
+ul.so-luong-flex li#li-tru{
+    background-color:#f1f5f9;
+    border-radius:0px 10px 10px 0px;
+}
+ul.so-luong-flex li#li-nguoi{
+    border:none;
+}
+.chu-thich-so-luong{
+    margin-top: 3.5vw;
+    background-color:bisque;
+    padding:0.5vw 1vw;
+    border-radius:5px 5px;
+}
+/* thông tin khách du lịch đặt tour */
+.thong-tin-khach-du-lich h2{
+    padding:2vw 0;
+}
+#border-no-name{
+    margin-left:25%;
+    margin-top:-0.5vw;
+    width:75%;
+    border-top:3px solid #C0C0C0;
+}
+/* css form-info */
+.info-cart{
+    padding:3.5vw 0;
+}
+.form-info{
+    padding:0.75vw 0;
+}
+.form-info input[type=text],.form-info input[type=number],.form-info input[type=email]{
+    border-radius: 0;
+    height:3vw;
+}
+.form-info input[type=checkbox]{
+    margin-top:0.3vw;
+    height:0.8vw;
+}
+small.form-error{
+    margin-top:1vw;
+    color:red;
+    font-size:1vw;
+    font-weight:500;
+}
+p#chu-thich-form{
+    margin-top:0.5vw;
+    font-weight:500;
+}
+#margin-left-2vw{
+    width:96%;
+    margin-left:1.8%;
+}
+label{
+    margin-top:-1vw;
+}
+/* hình thức banking */
+.thanh-toan {
+    padding:1vw 1vw;
+    background-color:#f1f5f9;
+    font-size:1.1vw;
+    margin-bottom:0.5vw;
+}
+#icon-banking{
+    padding:0 1.5vw;
+}
+/* {sider-bar */
+.main-cart{
+    display:flex;
+}
+.sider-bar-cart{
+    background-color:gainsboro;
+    height:52vw;
+    width:30%;
+    margin-top:30%;
+    margin-left:2%;
+    padding:0 1vw;
+    border:1px solid #C0C0C0;
+    position:sticky;
+    position:-webkit-sticky;
+    top:0;
+    left:0;
+}
+.sider-bar-cart h4{
+    padding:2vw 0;
+}
+.sider-bar-cart img{
+    width: 50%;
+    height:9vw;
+    border-radius:20%;
+    float:left;
+}
+#title-cart-sider-bar{
+    padding-top:0.5vw;
+    margin-left:52%;
+    font-size:1.4vw;
+    height:9vw;
+    font-weight:600;
+}
+#ngay-khoi-hanh{
+    padding:0.5vw 0 ;
+}
+.thong-ke{
+    display:flex;
+    padding-top:2vw;
+    padding-bottom:1vw;
+    border-bottom:1px solid #C0C0C0;
+}
+ul#thong-ke-ten{
+    list-style:none;
+    padding:0;
+    width:50%;
+    margin-left:1vw;
+    font-weight:400;
+}
+ul#thong-ke-so-lieu{
+    width:50%;
+    text-align:right;
+    list-style:none;
+    margin-right:1vw;
+    font-weight:600;
+}
+.thong-ke ul li{
+    padding:0.75vw 0;
+    font-size:1.2vw;
+}
+.tong-cong{
+    display:flex;
+    padding-top:2vw;
+}
+ul#tong-cong-ten{
+    list-style:none;
+    padding:0;
+    width:30%;
+    margin-left:1vw;
+    font-weight:400;
+}
+ul#tong-cong-so-lieu{
+    width:70%;
+    text-align:right;
+    list-style:none;
+    margin-right:1vw;
+    font-weight:600;
+}
+input[type=submit]{
+    width:100%;
+    padding:0.75vw 0 ;
+    border-radius: 10px 10px;
+    background-color:red;
+    color:white;
+    font-size:1.4vw;
+    font-weight:600;
+    border:none;
+}
+/* modal */
+.modal-content{
+    margin-top:20%;
+    border-radius: 0;
+    width:500px;
+    background-color:gold;
+}
+.modal-header img{
+    align-items: center;
+    margin-left:8vw;
+}
+.form-modal input{
+    height:3vw;
+    border-radius:0;
+}
+.btn-secondary-two{
+    color:black;
+    background-color:white;
+    border-radius:0;
+    padding:0.5vw 1vw;
+}
+.btn-secondary{
+    color:white;
+    background-color:black;
+    border-radius:0;
+    border:1px solid black;
+    padding:0.5vw 1vw;
+}
+span#icon{
+    margin-left:88%;
+    position:absolute;
+    margin-top:0.7vw;
+    color:red;
+    font-size:1.2vw;
+  }
